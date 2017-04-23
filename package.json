@@ -1,0 +1,23 @@
+{
+  "name": "rabbitmq-with-expressjs",
+  "version": "1.0.0",
+  "description": "An example of how to use amqp protocol from rabbitmq to run on REST API on express.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rabbitmq",
+    "express.js",
+    "amqp",
+    "rest api",
+    "rpc"
+  ],
+  "author": "Suratin Pattanawongthai (Murnax)",
+  "email": "suratin.elec@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "express": "^4.15.2"
+  }
+}
